@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:slime_ball"
+    },
+    "B": {
+      "item": "minecraft:slime_block"
+    },
+    "C": {
+      "item": "boxedmachines:boxed_casing"
+    }
+  },
+  "result": {
+    "id": "boxedmachines:slime_farm",
+    "count": 1
+  }
+}

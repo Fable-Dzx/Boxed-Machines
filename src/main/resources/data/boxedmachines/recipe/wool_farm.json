@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:white_wool"
+    },
+    "B": {
+      "item": "minecraft:string"
+    },
+    "C": {
+      "item": "boxedmachines:boxed_casing"
+    }
+  },
+  "result": {
+    "id": "boxedmachines:wool_farm",
+    "count": 1
+  }
+}

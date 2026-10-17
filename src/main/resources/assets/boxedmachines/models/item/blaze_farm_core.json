@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "boxedmachines:item/blaze_farm_core"
-  }
-}

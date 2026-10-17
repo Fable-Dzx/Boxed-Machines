@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chicken"
+    },
+    "B": {
+      "item": "minecraft:magma_cream"
+    },
+    "C": {
+      "item": "boxedmachines:boxed_casing"
+    }
+  },
+  "result": {
+    "id": "boxedmachines:lava_chicken_machine",
+    "count": 1
+  }
+}

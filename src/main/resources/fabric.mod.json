@@ -1,28 +1,24 @@
 {
-    "schemaVersion": 1,
-    "id": "boxedmachines",
-    "version": "${version}",
-    "name": "盒装机器",
-    "description": "将红石机器和生电装置封装进单一方块！放置即自动运行，右键查看产出。包含27种盒装机器。",
-    "authors": [
-        "BoxedMachines"
-    ],
-    "contact": {},
-    "license": "MIT",
-    "icon": "assets/boxedmachines/icon.png",
-    "environment": "*",
-    "entrypoints": {
-        "main": [
-            "com.boxedmachines.BoxedMachinesMod"
-        ],
-        "client": [
-            "com.boxedmachines.BoxedMachinesClient"
-        ]
-    },
-    "depends": {
-        "fabricloader": ">=0.18.1",
-        "minecraft": ">=1.21.11-",
-        "java": ">=21",
-        "fabric-api": "*"
-    }
+	"schemaVersion": 1,
+	"id": "boxedmachines",
+	"version": "${version}",
+	"name": "Boxed Machines",
+	"description": "盒装红石机器：将刷铁机、刷石机、岩浆机、岩浆烤鸡机等生电机器做成可摆放的盒子方块，自动产出资源，右键一键收取！",
+	"authors": [
+		"Doubao"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boxedmachines.BoxedMachines"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
 }

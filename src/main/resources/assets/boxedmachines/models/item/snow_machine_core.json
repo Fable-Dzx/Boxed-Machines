@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "boxedmachines:item/snow_machine_core"
-  }
-}

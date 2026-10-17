@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "boxedmachines:block/machine_bottom",
+    "side": "boxedmachines:block/melon_farm_side",
+    "top": "boxedmachines:block/machine_top"
+  }
+}
