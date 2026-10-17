@@ -1,19 +1,22 @@
-name: Build Boxed Machines
+name: Build and Release
 
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  build-and-release:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up JDK 21
         uses: actions/setup-java@v4
@@ -24,14 +27,35 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.12'   # 会安装此版本并加入 PATH
+          gradle-version: '9.2'   # ⬅️ 从 8.12 升级到 9.2
+
+      - name: 计算动态版本号
+        id: version
+        run: |
+          BASE_VERSION=$(grep '^mod_version' gradle.properties | cut -d'=' -f2 | tr -d ' ' || echo "1.0.0")
+          FULL_VERSION="${BASE_VERSION}.${GITHUB_RUN_NUMBER}"
+          echo "version=$FULL_VERSION" >> $GITHUB_OUTPUT
+          echo "tag=v$FULL_VERSION" >> $GITHUB_OUTPUT
 
       - name: Build with Gradle
         run: gradle build
 
-      - name: Upload JAR artifacts
-        uses: actions/upload-artifact@v4
+      - name: 重命名 JAR 带版本号
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          for jar in build/libs/*.jar; do
+            if [ -f "$jar" ]; then
+              mv "$jar" "${jar%.jar}-${VERSION}.jar"
+            fi
+          done
+
+      - name: 创建 GitHub Release 并上传 JAR
+        uses: softprops/action-gh-release@v3
         with:
-          name: boxed-machines-jars
-          path: build/libs/*.jar
-          if-no-files-found: error
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Release ${{ steps.version.outputs.version }}
+          body: |
+            自动构建发布 · 构建号：`${{ github.run_number }}`
+            基础版本：`${{ steps.version.outputs.version }}`
+          files: build/libs/*.jar
+          generate_release_notes: true
