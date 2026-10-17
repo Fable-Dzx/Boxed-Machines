@@ -27,7 +27,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '9.6.1'   # 若提示不存在，换成最新 9.x 完整版本号
+          gradle-version: '9.7.1'   # ⬅️ 从 9.6.1 升级到 9.7.1
 
       - name: 计算动态版本号
         id: version
