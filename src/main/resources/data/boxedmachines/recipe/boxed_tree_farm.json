@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "CXC",
+    "LAL"
+  ],
+  "key": {
+    "L": "minecraft:oak_log",
+    "S": "minecraft:oak_sapling",
+    "C": "boxedmachines:tree_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "A": "minecraft:iron_axe"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_tree_farm",
+    "count": 1
+  }
+}

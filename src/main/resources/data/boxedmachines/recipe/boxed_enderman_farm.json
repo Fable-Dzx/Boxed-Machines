@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EOE",
+    "CXC",
+    "EPE"
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "O": "minecraft:obsidian",
+    "C": "boxedmachines:enderman_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "P": "minecraft:end_stone"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_enderman_farm",
+    "count": 1
+  }
+}

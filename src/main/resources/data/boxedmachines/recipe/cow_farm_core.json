@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LWL",
+    "CMC",
+    "LWL"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "W": "minecraft:wheat",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:cow_farm_core",
+    "count": 1
+  }
+}

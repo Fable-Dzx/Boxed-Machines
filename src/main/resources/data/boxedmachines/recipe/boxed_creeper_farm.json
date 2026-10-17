@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GTG",
+    "CXC",
+    "GRG"
+  ],
+  "key": {
+    "G": "minecraft:gunpowder",
+    "T": "minecraft:tnt",
+    "C": "boxedmachines:creeper_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "R": "minecraft:repeater"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_creeper_farm",
+    "count": 1
+  }
+}

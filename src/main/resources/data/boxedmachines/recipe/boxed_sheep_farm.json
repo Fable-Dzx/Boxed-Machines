@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "CXC",
+    "WHW"
+  ],
+  "key": {
+    "W": "minecraft:white_wool",
+    "S": "minecraft:shears",
+    "C": "boxedmachines:sheep_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "H": "minecraft:hay_block"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_sheep_farm",
+    "count": 1
+  }
+}

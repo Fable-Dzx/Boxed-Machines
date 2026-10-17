@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "CXC",
+    "BFB"
+  ],
+  "key": {
+    "B": "minecraft:blaze_rod",
+    "R": "minecraft:blaze_powder",
+    "C": "boxedmachines:blaze_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "F": "minecraft:fire_charge"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_blaze_farm",
+    "count": 1
+  }
+}

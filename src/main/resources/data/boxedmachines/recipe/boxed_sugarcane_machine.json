@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "KXK",
+    "WWW"
+  ],
+  "key": {
+    "S": "minecraft:sugar_cane",
+    "K": "boxedmachines:sugarcane_machine_core",
+    "X": "boxedmachines:machine_casing",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_sugarcane_machine",
+    "count": 1
+  }
+}

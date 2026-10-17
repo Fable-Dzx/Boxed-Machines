@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OTO",
+    "CMC",
+    "OTO"
+  ],
+  "key": {
+    "O": "minecraft:ominous_bottle",
+    "T": "minecraft:totem_of_undying",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:raid_farm_core",
+    "count": 1
+  }
+}

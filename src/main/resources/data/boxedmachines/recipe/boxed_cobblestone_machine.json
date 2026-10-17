@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WLP",
+    "CXC",
+    "PLW"
+  ],
+  "key": {
+    "W": "minecraft:water_bucket",
+    "L": "minecraft:lava_bucket",
+    "C": "boxedmachines:cobblestone_machine_core",
+    "X": "boxedmachines:machine_casing",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_cobblestone_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRF",
+    "KXK",
+    "FBF"
+  ],
+  "key": {
+    "F": "minecraft:fishing_rod",
+    "R": "minecraft:cod",
+    "K": "boxedmachines:fishing_machine_core",
+    "X": "boxedmachines:machine_casing",
+    "B": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_fishing_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "CMC",
+    "SBS"
+  ],
+  "key": {
+    "S": "minecraft:snow_block",
+    "B": "minecraft:blue_ice",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:snow_machine_core",
+    "count": 1
+  }
+}

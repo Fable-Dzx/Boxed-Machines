@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boxedmachines:item/tree_farm_core"
+  }
+}

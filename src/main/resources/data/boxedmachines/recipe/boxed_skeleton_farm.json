@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "CXC",
+    "BSB"
+  ],
+  "key": {
+    "B": "minecraft:bone_block",
+    "A": "minecraft:arrow",
+    "C": "boxedmachines:skeleton_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "S": "minecraft:bow"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_skeleton_farm",
+    "count": 1
+  }
+}

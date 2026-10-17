@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OLO",
+    "CXC",
+    "OBO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "L": "minecraft:lava_bucket",
+    "C": "boxedmachines:lava_machine_core",
+    "X": "boxedmachines:machine_casing",
+    "B": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_lava_machine",
+    "count": 1
+  }
+}

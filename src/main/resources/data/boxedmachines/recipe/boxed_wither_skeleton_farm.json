@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "CXC",
+    "WNW"
+  ],
+  "key": {
+    "W": "minecraft:coal_block",
+    "S": "minecraft:skeleton_skull",
+    "C": "boxedmachines:wither_skeleton_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "N": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_wither_skeleton_farm",
+    "count": 1
+  }
+}

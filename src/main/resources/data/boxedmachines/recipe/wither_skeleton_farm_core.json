@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "CMC",
+    "WSW"
+  ],
+  "key": {
+    "W": "minecraft:coal_block",
+    "S": "minecraft:skeleton_skull",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:wither_skeleton_farm_core",
+    "count": 1
+  }
+}

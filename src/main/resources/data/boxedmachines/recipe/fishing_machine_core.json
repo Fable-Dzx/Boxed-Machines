@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRF",
+    "KMK",
+    "FRF"
+  ],
+  "key": {
+    "F": "minecraft:fishing_rod",
+    "R": "minecraft:cod",
+    "K": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:fishing_machine_core",
+    "count": 1
+  }
+}

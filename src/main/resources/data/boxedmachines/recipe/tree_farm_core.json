@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "CMC",
+    "LSL"
+  ],
+  "key": {
+    "L": "minecraft:oak_log",
+    "S": "minecraft:oak_sapling",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:tree_farm_core",
+    "count": 1
+  }
+}

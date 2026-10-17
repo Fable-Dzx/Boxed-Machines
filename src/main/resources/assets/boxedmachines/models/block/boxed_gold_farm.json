@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "boxedmachines:block/machine_top",
+    "bottom": "boxedmachines:block/machine_top",
+    "side": "boxedmachines:block/boxed_gold_farm_side",
+    "front": "boxedmachines:block/boxed_gold_farm_front"
+  }
+}

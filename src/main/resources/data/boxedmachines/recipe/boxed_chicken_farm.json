@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ESE",
+    "CXC",
+    "EHE"
+  ],
+  "key": {
+    "E": "minecraft:egg",
+    "S": "minecraft:wheat_seeds",
+    "C": "boxedmachines:chicken_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "H": "minecraft:hay_block"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_chicken_farm",
+    "count": 1
+  }
+}

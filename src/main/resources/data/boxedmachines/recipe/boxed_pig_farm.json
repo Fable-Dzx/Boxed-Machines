@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "AXA",
+    "RGR"
+  ],
+  "key": {
+    "R": "minecraft:carrot",
+    "G": "minecraft:golden_carrot",
+    "A": "boxedmachines:pig_farm_core",
+    "X": "boxedmachines:machine_casing"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_pig_farm",
+    "count": 1
+  }
+}

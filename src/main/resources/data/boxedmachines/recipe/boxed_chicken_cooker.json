@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FLF",
+    "CXC",
+    "FLF"
+  ],
+  "key": {
+    "F": "minecraft:feather",
+    "L": "minecraft:lava_bucket",
+    "C": "boxedmachines:chicken_cooker_core",
+    "X": "boxedmachines:machine_casing"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_chicken_cooker",
+    "count": 1
+  }
+}

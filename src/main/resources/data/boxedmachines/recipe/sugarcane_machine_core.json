@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CMC",
+    "WWW"
+  ],
+  "key": {
+    "S": "minecraft:sugar_cane",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "boxedmachines:sugarcane_machine_core",
+    "count": 1
+  }
+}

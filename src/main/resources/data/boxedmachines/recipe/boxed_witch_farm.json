@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "CXC",
+    "PRP"
+  ],
+  "key": {
+    "P": "minecraft:glowstone_dust",
+    "G": "minecraft:glass_bottle",
+    "C": "boxedmachines:witch_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_witch_farm",
+    "count": 1
+  }
+}

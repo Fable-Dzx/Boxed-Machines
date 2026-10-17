@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RZR",
+    "CMC",
+    "RZR"
+  ],
+  "key": {
+    "R": "minecraft:rotten_flesh",
+    "Z": "minecraft:zombie_head",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:zombie_farm_core",
+    "count": 1
+  }
+}

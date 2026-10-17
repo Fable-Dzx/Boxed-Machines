@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boxedmachines:item/zombie_farm_core"
+  }
+}

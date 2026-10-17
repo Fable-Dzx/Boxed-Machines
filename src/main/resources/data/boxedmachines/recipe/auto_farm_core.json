@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WHC",
+    "KMK",
+    "BPR"
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "H": "minecraft:iron_hoe",
+    "C": "minecraft:carrot",
+    "K": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip",
+    "B": "minecraft:beetroot",
+    "P": "minecraft:potato",
+    "R": "minecraft:wheat_seeds"
+  },
+  "result": {
+    "id": "boxedmachines:auto_farm_core",
+    "count": 1
+  }
+}

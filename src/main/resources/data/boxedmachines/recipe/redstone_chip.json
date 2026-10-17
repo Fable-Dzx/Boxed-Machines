@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "RDR",
+    "GRG"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "R": "minecraft:redstone_block",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "boxedmachines:redstone_chip",
+    "count": 1
+  }
+}

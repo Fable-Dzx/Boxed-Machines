@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OLO",
+    "CMC",
+    "OLO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "L": "minecraft:lava_bucket",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:lava_machine_core",
+    "count": 1
+  }
+}

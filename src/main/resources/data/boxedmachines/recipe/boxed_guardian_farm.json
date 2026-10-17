@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "CXC",
+    "PLP"
+  ],
+  "key": {
+    "P": "minecraft:prismarine",
+    "S": "minecraft:sea_lantern",
+    "C": "boxedmachines:guardian_farm_core",
+    "X": "boxedmachines:machine_casing",
+    "L": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "boxedmachines:boxed_guardian_farm",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "CMC",
+    "BAB"
+  ],
+  "key": {
+    "B": "minecraft:bone",
+    "A": "minecraft:bow",
+    "C": "boxedmachines:machine_casing",
+    "M": "boxedmachines:redstone_chip"
+  },
+  "result": {
+    "id": "boxedmachines:skeleton_farm_core",
+    "count": 1
+  }
+}
